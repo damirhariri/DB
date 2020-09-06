@@ -28,6 +28,9 @@ body {
   body {
     font-size: 100%;
   }
+  .title-modern {
+    pad
+  }
 }
 @media (min-width: 115em) {
   body {
@@ -2970,9 +2973,11 @@ fieldset[disabled] .form-control {
     margin: 0;
   }
   .section-header .content h1 {
-    font-size: 4.5em;
+    /* font-size: 4em; */
     letter-spacing: 0.07em;
-    line-height: 1.7;
+    /* line-height: 1.7; */
+    line-height: 1;
+    padding-top: 2em;
   }
   .section-header .content h1 span {
     font-size: 1em;
@@ -3621,6 +3626,7 @@ body {
   }
 }
 /*          Changes for small display      */
+
 @media (max-width: 767px) {
   .navbar-transparent {
     padding-top: 0;
